@@ -1,6 +1,4 @@
-# Generateur de titres
-===================
-# Title generator
+Generateur de titres / Title generator
 ===================
 ## English version here (french version down)
 
