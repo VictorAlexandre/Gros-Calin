@@ -19,6 +19,7 @@ Three tests are implemented:
 Ce programme en Python permet de générer des titres à partir d'un mot clé.
 
 Plusieurs fichiers composent ces dossier: un fichier python et 5 fichiers texte. Chacun contient une liste de titres de chansons, de livres, de films, d'expressions diverses. Chaque élément de la liste est entouré de guillemets et séparé par une virgule.
+
 Le programme reçoit le mot clé et parcourt l'ensemble des mots composant chacune des expressions contenues entre guillemets à la recherche d'un mot qui partagerait une ou plusieurs propriétés avec le mot clé.
 
 Trois tests sont (pour l'instant) proposés:
