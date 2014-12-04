@@ -8,7 +8,7 @@ Separate files are found in this repo: the *.py and 5 *.txt. In each of these, t
 
 Th program will browse each of these and see if the keyword typed into the *.py share some properties with one or several words of each expression.
 
-Quatre tests are implemented: 
+Four tests are implemented: 
 - does the keyword have 4 letters or more ?
 - does the keyword share its first 4 letters with a word inside the expression ?
 - does the keyword share its last 4 letters with a word inside the expression ?
