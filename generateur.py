@@ -146,7 +146,7 @@ def init():
 	
 
 Fenetre = Tk()
-Fenetre.title('Generateur de titre')
+Fenetre.title('Gros Câlin : Générateur de titre')
 
 Hautcentre=Frame(Fenetre)
 Hautcentre.grid(row=1,column=1)
@@ -172,7 +172,7 @@ valeur3 = Button(Ligneboutonsc, text ='Recommencer', command=init)
 affichagedroit = Label(Cadredroite,wraplength=400,fg="black",font=("Helvetica",12))
 affichagegauche = Label(Cadregauche,wraplength=400,fg="black",font=("Helvetica",12))
 resultats=Label(Hautcentre, fg="red", width=50)
-credits=Label(Bottom, text='Programme développé par Victor Alexandre, Atelier Python de l\'ENS, 2014, github.com/VictorAlexandre')
+credits=Label(Bottom, text='Programme développé par Victor Alexandre, 2014, github.com/VictorAlexandre')
 presentation.pack()
 entree_motcle.pack()
 valeur.pack()
