@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-  # Définition l'encodage des caractères
-from Tkinter import *
+try:
+    # for Python2
+    from Tkinter import *
+except ImportError:
+    # for Python3
+    from tkinter import *
 from random import *
 from difflib import *
  
